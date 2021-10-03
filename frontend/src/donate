@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation for kids</title>
+    <link rel="icon" href="favicon.jpg" type="image/jpg" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<script src="https://use.fontawesome.com/69ca5d3ded.js"></script>
+<link rel="stylesheet" href="styler.css">
+</head>
+<body>
+    
+    <header>
+
+         
+               <main>
+                   <section>
+                       <h3>Welcome To The Family!</h3>
+                       <h1>We are so glad to have you here! <span class="change_content"> </span></h1>
+                       <p class=" animated infinite heartBeat">"Let's come together to make this world better."</p>
+                       <a href="https://rzp.io/l/ooqHjM7" class="btntwo">Donate Now</a>
+                   </ section>
+               </main> 
+        
+           
+    </header>
+  
+
+</body>
+</html>
+
+<style>
+    *
+{
+    margin:0;
+    padding:0;
+    font-family:"montserrat",sans-serif;
+    box-sizing:border-box;
+    }
+    body
+    {
+    background-image:url(phone2.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    opacity:0.9;
+    }
+    .contact-info
+    {
+    display:flex;
+    width:100%;
+    max-width:1200px;
+    align-items:center;
+    justify-content:center;
+    padding: 0 20px;
+    }
+    .card
+    {
+    background:#2f3542;
+    padding:0 30px;
+    margin:0 10px;
+    width:600px;
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    color:#fff;
+    align-items:center;
+    cursor:pointer
+    }
+    .card-icon
+    {
+    font-size:28px;
+    background:#ff6348;
+    width:80px;
+    height:60px;
+    text-align:center;
+    line-height:60px !important;
+    border-radius:50%;
+    transition:0.3s linear;
+    }
+    .card:hover .card-icon
+    {
+    background:none;
+    color:#ff6348;
+    transform:scale(1.6);
+    }
+    .card p
+    {
+    margin-top:20px;
+    font-weight:300;
+    letter-spacing:2px;
+    max-height:0;
+    opacity:0;
+    transition:0.3s linear;
+    }
+    .card:hover p
+    {
+    max-height:40px;
+    opacity:1;
+    }
+    @media screen and (max-width:800px)
+    {
+    .contact-info
+    {
+    flex-direction:column;
+    }
+    .card
+    {
+    width:300%;
+    max-width:1000px;
+    margin:5px 0;
+    }
+    }
+    </style>
